@@ -26,6 +26,7 @@ public class dang_nhap_form extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+<<<<<<< HEAD
         kGradientPanel1 = new com.k33ptoo.components.KGradientPanel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -53,6 +54,21 @@ public class dang_nhap_form extends javax.swing.JFrame {
 
         getContentPane().add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
+=======
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
+>>>>>>> 17bd2ee807e814573a1750fb37bd75766b91d937
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -92,7 +108,10 @@ public class dang_nhap_form extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel1;
     private com.k33ptoo.components.KGradientPanel kGradientPanel1;
+=======
+>>>>>>> 17bd2ee807e814573a1750fb37bd75766b91d937
     // End of variables declaration//GEN-END:variables
 }
